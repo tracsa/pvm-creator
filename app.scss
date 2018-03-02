@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#viewport {
+    display: flex;
+}
+
+#sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #0984e3;
+}
+
+#canvas {
+    background-color: #74b9ff;
+    flex-grow: 1;
+}
+
+#svg {
+    width: 100%;
+    height: 100%;
+}
